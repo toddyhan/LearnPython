@@ -1,0 +1,2 @@
+hello, I'm data file
+Created for read and write file
