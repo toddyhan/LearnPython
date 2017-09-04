@@ -27,3 +27,13 @@ changer(X,L)
 print("after changer: ")
 print("X: ", X)
 print("L:", L)
+
+def changer_copy(x, y):
+    x = 2
+    y = y[:]
+    y[0] = 'spam'
+x_copy = 1
+y_copy = [1,2]
+changer_copy(x_copy,y_copy)
+print ("x_copy: ", x_copy)
+print ("y_copy:", y_copy)
